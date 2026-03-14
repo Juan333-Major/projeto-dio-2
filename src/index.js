@@ -1,4 +1,4 @@
-let ranking = calculo(50, 10)
+let ranking = calculo(79, 19)
 let nivel = ""
 
 if(ranking <= 10){
@@ -8,7 +8,7 @@ if(ranking <= 10){
 }else if(ranking <= 20){
     nivel = "Bronze"
     console.log(`O Herói tem de vitórias ${ranking} e está no nível ${nivel}`)
-    
+
 }else if(ranking <= 50){
     nivel = "Prata"
     console.log(`O Herói tem de vitórias ${ranking} e está no nível ${nivel}`)
